@@ -1,0 +1,33 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font-family:"宋体";
+	font-family:Arial;
+	background:#fff;
+}
+
+#wrapper {
+	width:400px;
+	margin:20px auto;
+}
+
+
+h1 {
+	font-size:20px;
+	text-align:center;
+	color:#0033FF;
+	height:240px;
+}
+
+p{
+	text-align:right;
+	margin:20px 0px;
+}
+
+input {
+	width:260px;
+	margin:0px 0px;
+}

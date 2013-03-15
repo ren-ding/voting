@@ -1,0 +1,64 @@
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font: 75%/1.6;	
+	background:#FFFFFF;
+}
+
+.clearfix {
+	+zoom:1;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+
+a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+	
+#wrapper {
+	margin:100px auto;
+	text-align:center;
+	width:720px;
+}
+
+#left {
+	float:left;
+	list-style:none;
+	background:#0033CC;
+}
+
+#left li{
+	margin:30px 0px;
+	text-align:center;
+	width:100px;	
+	border-bottom:1px solid #000000;
+	padding-bottom:9px;
+}
+	
+
+#right {
+	float:left;
+	background-color:#FFFFFF;
+}
+
+h1 {
+		text-align:center;
+		color:#0033FF;
+		line-height:200px;
+		height:260px;
+	}
+
+
+
+

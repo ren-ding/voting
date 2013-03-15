@@ -1,0 +1,3 @@
+09-04-20 12:18:19	Duplicate entry '4' for key 'PRIMARY'	SQL is:INSERT INTO tb_jd SET id ='4', name = '小丁丁',`note` = '很好很强大很好很强大很好很强大',`describe` = '很好很强大很好很强大很好很强大很好很强大很好很强大很好很强大很好很强大很好很强大很好很强大',`num`= '0'.
+09-04-20 07:06:06	Duplicate entry '4' for key 'PRIMARY'	SQL is:INSERT INTO tb_jd SET id ='4', name = 'dadas',`note` = 'dasdsa',`describe` = 'dasdasd',`num`= '0'.
+09-04-20 07:07:03	Duplicate entry '11' for key 'PRIMARY'	SQL is:INSERT INTO tb_jd SET id ='11', name = 'asdas',`note` = 'asdasdd',`describe` = 'dasdasad',`num`= '0'.

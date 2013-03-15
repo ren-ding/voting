@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="米迦勒TT、阿不、穿拖鞋的鱼" />
+<meta name="keywords" content="翔工作室、学生在线、中国矿业大学、十大景点、评选活动" />
+<meta name="description" content="中国矿业大学十大魅力经典评选活动" />
+<meta name="robots" content="all" />
+<title>十大魅力景点</title>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="css/index.css" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="css/commons.css" />
+<script type="text/javascript" src="script/index.js"></script>
+<script type="text/javascript" src="script/js.js"></script>
+</head>
+
+<body>
+<div id="container">
+	<div id="banner">
+		<div id="logo"></div>
+	</div><!--the end of banner-->
+	<div id="content">
+		<h3 id="headTitle">请选择10个候选景点进行投票!</h3>
+		<form action="" method="post" id="s_form">
+		{foreach from=$piclist item=piclisted}
+		<div class="box">
+			<a target="_blank" href="ready.php?id={$piclisted.id}" class="a_img"><img src="pic/small/{$piclisted.id}.jpg" alt="查看" /></a>
+			<p class="p_first"><span class="r_span">票数:<strong>{$piclisted.num}</strong></span>
+			<input type="checkbox" name="chkbox[]" value="{$piclisted.id}" class="cbx" /><a href="ready.php?id={$piclisted.id}">{$piclisted.name}</a></p>
+			<p class="p_secordly">
+			{$piclisted.note}
+			</p>
+		</div><!--the end of box-->
+		{/foreach}
+		<div class="clear"></div>
+		<p id="p_btn"><input type="submit" value="投票" class="btn" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="取消" class="btn" /></p>
+		</form><!--the end of form-->
+	</div><!--the end of content-->
+	<div id="footer">
+		<p>主办单位：<a href="#">共青团中国矿业大学委员会</a>|<a href="#">中国矿业大学学工处</a>|<a href="#">中国矿业大学社团联合会</a>
+		</p>
+		<p>协办单位：<a href="#">社团联合会文化修养类社团</a>|<a href="#">中国矿业大学学生在线</a></p>
+		<p>Copyright@2008 Student Online powered By 翔工作室</p>
+	</div><!--the end of footer-->
+</div><!--the end of container-->
+
+<div id="forcheck"> 对不起!您的选票不能超过10票! </div>
+<div id="opacity"></div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background:#0099CC;
+}
+	
+	
+#wrapper {
+	margin:100px auto;
+	text-align:center;
+	
+}
+
+h2 {
+	text-align:center;
+	line-height:30px;
+	height:30px;
+	width:100px;
+}
+
+p{
+	margin-top:10px;
+}
+
+#button {
+	margin-top:30px;
+	text-align:right;
+	background:none;
+	width:700px;
+}
+
+#tijiao {
+	height:30px;
+	width:100px;
+}

@@ -1,0 +1,86 @@
+/* CSS Document */
+#left_side{
+	width:270px;
+	padding:3px 3px 40px 3px;
+	float:left;
+	margin-left:10px;
+	display:inline;
+	border:2px solid #c3f282;
+}
+
+h3{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#2b612f;
+	padding-left:35px;
+	background:#bfe787 url(../imgs/ico.gif) no-repeat 15px 5px;
+}
+ul#arr_ticket{
+	margin-top:20px;
+	padding:0px 10px;
+}
+ul#arr_ticket li{
+	height:25px;
+	line-height:25px;
+	padding:0px 6px;
+}
+ul#arr_ticket li a{
+	color:#000;
+	text-decoration:none;
+}
+ul#arr_ticket li a:hover{
+	text-decoration:underline;
+}
+span.t_span{
+	float:right;
+}
+span.top_n{
+	float:left;
+	width:17px;
+	height:17px;
+	line-height:17px;
+	margin-top:4px;
+	margin-right:3px;
+	color:#fff;
+	text-align:center;
+	background:url(../imgs/ico1.gif) no-repeat left 2px;
+}
+#right_side{
+	width:630px;
+	float:right;
+	margin-right:10px;
+	display:inline;
+	border:2px solid #c3f282;
+	padding:3px 3px 40px 3px;
+}
+div#link_Img{
+	text-align:center;
+	margin:20px 0px;
+}
+div#link_Img a{
+	display:block;
+	margin:0 auto;
+	padding:3px;
+	width:445px;
+	height:335px;
+	overflow:hidden;
+	border:2px solid #ccc;
+}
+#link_Img a img{width:445px; height:335px; overflow:hidden;
+}
+h4.title{
+	text-align:center;
+	font-size:14px;
+	height:40px;
+	line-height:40px;
+}
+#p_content p{
+	text-indent:2em;
+	line-height:150%;
+	padding:0px 35px;
+}
+#footer{
+	margin-top:30px;
+}
+

@@ -1,0 +1,63 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	text-align:center;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+a img{
+	border:none;
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+strong{
+	font-weight:normal;
+}
+#container{
+	margin:0 auto;
+	width:975px;
+	text-align:left;
+	background-color:#f7fbea;
+}
+#banner{
+	width:975px;
+	height:201px;
+	background:url(../imgs/banner.png) no-repeat center;
+}
+#content{
+	margin-top:20px;
+	width:975px;
+}
+#footer{
+	clear:both;
+	background-color:#c5f27e;
+	text-align:center;
+	padding:30px 0px;
+}
+#footer p{
+	color:#373d31;
+	height:25px;
+	line-height:25px;
+}
+#footer p a{
+	color:#373d31;
+	text-decoration:none;
+	padding:0px 12px;
+}
+#footer p a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+.clear{
+	clear:both;
+}
+

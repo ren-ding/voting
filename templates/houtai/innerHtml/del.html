@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<title>删除</title>
+<style type="text/css">
+{literal}
+	#wrapper {
+		padding-bottom:30px;
+		margin-left:30px;
+	}
+	
+	a {
+		text-decoration:none;
+		color:#000;
+	}
+	
+	.clearfix {
+		+zoom:1;
+	}
+
+	.clearfix:after {
+		  content: ".";
+		  clear: both;
+		  height: 0;
+		  visibility: hidden;
+		  display: block;
+	}
+	
+	#lianjian {
+		margin-top:20px;
+	}
+	
+	#left {
+		float:left;
+		
+	}
+	
+	#right {
+		float:left;
+		margin-left:10px;
+	}
+	
+	#text {
+		width:50px;
+	}
+	
+	
+	td {
+		border:1px solid #000;
+		text-align:center;
+	}
+	
+	tr {
+		height:20px;
+		line-height:20px;
+	}
+	
+	th {
+		border:1px solid #000;
+	}	
+{/literal}
+</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<table>
+			<tr>
+				<th>删除</th>
+				<th>图片名</th>
+				<th>首页简介</th>
+				<th>子页介绍</th>
+			</tr>
+			{foreach from=$piclist item=piclisted}
+			<tr>
+				<td>
+				<form name="del" action="" method="post">
+						<input type="submit" name="del" id="del" value="{$piclisted.id}"/>
+				</form>
+				</td>
+				<td>{$piclisted.name}</td>
+				<td>{$piclisted.note}</td>
+				<td>{$piclisted.describe}</td>
+				
+			</tr>
+			{/foreach}
+		</table>
+	</div>
+</body>
+</html>

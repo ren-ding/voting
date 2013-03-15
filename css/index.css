@@ -1,0 +1,109 @@
+/* CSS Document */
+
+h3#headTitle{
+	margin-bottom:20px;
+	font-size:12px;
+	color:#326b26;
+	height:30px;
+	line-height:30px;
+	padding-left:15px;
+	background-color:#bfe887;
+}
+#s_form{
+	padding-left:3px;
+}
+div.box{
+	width:210px;
+	height:250px;
+	margin-bottom:30px;
+	overflow:hidden;
+	float:left;
+	display:inline;
+	margin-left:16px;
+	margin-right:16px;
+}
+a.a_img{
+	border:2px solid #ccc;
+	width:200px;
+	padding:3px;
+	height:152px;
+	overflow:hidden;
+	display:block;
+	margin-bottom:8px;
+}
+a.a_img img{
+	width:200px;
+	height:152px;
+	overflow:hidden;
+}
+p.p_first{
+	height:20px;
+	padding:5px 0px;
+}
+p.p_first a{
+	float:left;
+	display:inline;
+	margin-left:5px;
+	+margin-top:4px;
+	width:120px;
+	height:13px;
+	font-size:12px;
+	font-weight:bold;
+	overflow:hidden;
+	color:#326b26;
+}
+input.cbx{
+	float:left;
+}
+span.r_span{
+	float:right;
+	color:#373d31;
+	+margin-top:2px;
+}
+span.r_span strong{
+	font-weight:normal;
+}
+p.p_secordly{
+	width:210px;
+	height:40px;
+	overflow:hidden;
+	line-height:20px;
+	overflow:hidden;
+}
+#p_btn{
+	text-align:center;
+	margin:0px 0px 50px 0px;
+}
+.btn{
+	border:none;
+	height:28px;
+	line-height:28px;
+	width:78px;
+	color:#373d31;
+	font-weight:bold;
+	font-size:14px;
+	background:url(../imgs/btn.jpg) no-repeat center;
+}
+#forcheck {
+	display:none;
+	position:absolute;
+	width:200px;
+	height:80px;
+	z-index:200;
+	text-align:center;
+	font-weight:bold;
+	line-height:80px;
+	background:#eee;
+	color:#993300;
+	border:1px solid #ddd;
+}
+#opacity {
+	display:none;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:100;	
+	background-color:#000;
+}
+
+

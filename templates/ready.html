@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="米迦勒TT、阿不、穿拖鞋的鱼" />
+<meta name="keywords" content="翔工作室、学生在线、中国矿业大学、十大景点、评选活动" />
+<meta name="description" content="中国矿业大学十大魅力经典评选活动" />
+<meta name="robots" content="all" />
+<title>十大魅力景点</title>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="css/commons.css" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="css/ready.css" />
+</head>
+
+<body>
+<div id="container">
+	<div id="banner">
+		<div id="logo"></div>
+	</div><!--the end of banner-->
+	<div id="content">
+		<div id="left_side">
+			<h3>投票排行</h3>
+			
+			<ul id="arr_ticket">
+			{foreach from=$rank item=ranked}
+				<li><span class="t_span">[<strong>{$ranked.num}</strong> 票]</span><span class="top_n">{$ranked.id}</span><a href="ready.php?id={$ranked.id}">{$ranked.name}</a></li>
+			{/foreach}
+			</ul>
+		</div><!--the end of left_side-->
+		<div id="right_side">
+			<h3>景点介绍</h3>
+			{foreach from=$piclist1 item=piclisted}
+			<div id="link_Img"><a target="_blank" href="yuantu.php?id={$piclisted.id}"><img src="pic/middle/{$piclisted.id}.jpg" alt="查看原图" /></a></div>
+			<h4 class="title">{$piclisted.name}</h4>
+			<div id="p_content">
+			<p>{$piclisted.describe}
+			</p>
+			{/foreach}
+			</div><!--the end of con_p-->
+		</div><!--the end of right_side-->
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<p>主办单位：<a href="#">共青团中国矿业大学委员会</a>|<a href="#">中国矿业大学学工处</a>|<a href="#">中国矿业大学社团联合会</a>
+		</p>
+		<p>协办单位：<a href="#">社团联合会文化修养类社团</a>|<a href="#">中国矿业大学学生在线</a></p>
+		<p>Copyright@2008 Student Online powered By 翔工作室</p>
+	</div>
+</div><!--the end of container-->
+</body>
+</html>
